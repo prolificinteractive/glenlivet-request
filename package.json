@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Glenlivet wrapper for request library that allows for dynamic options.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prolificinteractive/glenlivet-request"
+  },
   "directories": {
     "example": "examples",
     "test": "test"
