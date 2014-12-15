@@ -1,0 +1,31 @@
+{
+  "name": "glenlivet-request",
+  "version": "1.0.0",
+  "description": "Glenlivet wrapper for request library that allows for dynamic options.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "glenlivet": "^2.0.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7",
+    "grunt-mocha-test": "^0.12.4",
+    "lodash": "^2.4.1",
+    "q": "^1.1.2",
+    "request": "^2.50.0"
+  },
+  "devDependencies": {
+    "express": "^4.10.6",
+    "glenlivet": "^2.0.1",
+    "mocha": "^2.0.1",
+    "should": "^4.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Eric Weber",
+  "license": "MIT"
+}
